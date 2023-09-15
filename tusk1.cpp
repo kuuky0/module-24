@@ -26,6 +26,7 @@ int main() {
 	std::vector<std::string,int> taskcount;
     std::string command;
 
+    std::cout << "HELLO EVERYONE" << std::endl;
     while (command != "exit") {
         std::cout << "Enter command (begin, end, status, exit): ";
         std::cin >> command;
