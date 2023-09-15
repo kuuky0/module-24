@@ -48,4 +48,5 @@ int main() {
         }
     }
     std::cout << "Choose way to transport" << std::endl;
+    std::cout << "HUT HUY " << std::endl;
 }
