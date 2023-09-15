@@ -4,10 +4,6 @@
 #include <vector>
 #define _CRT_SECURE_NO_WARNINGS
 
-struct Task {
-
-};
-
 int main() {
 #if M
 	std::time_t t = std::time(nullptr);
