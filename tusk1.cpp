@@ -26,9 +26,6 @@ int main() {
             double d = std::difftime(b, a);
             std::cout << d << std::endl;
         }
-        else if (command == "status") {
-            
-        }
     }
   
 }
