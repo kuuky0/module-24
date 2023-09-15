@@ -9,20 +9,7 @@ struct Task {
 };
 
 int main() {
-#if M
-	std::time_t t = std::time(nullptr);
-	std::tm local1;
 
-	if (localtime_s(&local1, &t) == 0)
-	{
-		std::cin >> std::get_time(&local1, "%H:%M");
-		char buffer[80];
-		if (asctime_s(buffer, sizeof(buffer), &local1) == 0)
-		{
-			std::cout << buffer;
-		}
-	}
-#endif 
 	std::vector<std::string,int> taskcount;
     std::string command;
 
