@@ -10,9 +10,6 @@ struct Task {
 
 int main() {
 
-	std::vector<std::string,int> taskcount;
-    std::string command;
-
     std::cout << "HELLO EVERYONE" << std::endl;
     while (command != "exit") {
         std::cout << "Enter command (begin, end, status, exit): ";
@@ -35,7 +32,5 @@ int main() {
             
         }
     }
-    std::cout << "Choose way to transport" << std::endl;
-    std::cout << "HUT HUY " << std::endl;
-	std::cout << "How are you fine sank you" << std::endl;
+  
 }
