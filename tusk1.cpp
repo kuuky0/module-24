@@ -4,9 +4,7 @@
 #include <vector>
 #define _CRT_SECURE_NO_WARNINGS
 
-struct Task {
 
-};
 
 int main() {
 
