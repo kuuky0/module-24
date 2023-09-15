@@ -47,4 +47,5 @@ int main() {
             
         }
     }
+    std::cout << "Choose way to transport" << std::endl;
 }
