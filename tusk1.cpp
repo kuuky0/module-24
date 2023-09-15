@@ -30,6 +30,23 @@ int main() {
             double d = std::difftime(b, a);
             std::cout << d << std::endl;
         }
+        else if (command == "end") {
+            std::time_t b = std::time(nullptr);
+            double d = std::difftime(b, a);
+            std::cout << d << std::endl;
+        }
+        else if (command == "end") {
+
+        }
+        else if (command == "end") {
+            std::time_t b = std::time(nullptr);
+            double d = std::difftime(b, a);
+            std::cout << d << std::endl;
+        }
+        else if (command == "end") {
+
+        }
+
     }
   
 }
